@@ -1,0 +1,99 @@
+repo_name: assistaplus/assp-coinmarketcap-sniper-bot
+report_id: e51ca1a289133f84a94a0c39ca8a01fa
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T13:41:43+00:00'
+requested_by: Scott-778
+provider: github
+branch: main
+detected_tools_count: 7
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/assistaplus/assp-coinmarketcap-sniper-bot
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/assistaplus/assp-coinmarketcap-sniper-bot/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Scott
+  last_updated_on: 2022-02-11 18:36:40.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/assistaplus/assp-coinmarketcap-sniper-bot
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/assistaplus/assp-coinmarketcap-sniper-bot/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Scott
+  last_updated_on: 2022-02-03 04:40:19.000000000 Z
+- name: ethers
+  description: Umbrella package for most common Ethers libraries
+  package_url: https://www.npmjs.com/ethers
+  version: 5.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17297/default_3ec53c4dad64de27b72cc81401e898b5aea82f2c.png
+  detection_source_url: https://github.com/assistaplus/assp-coinmarketcap-sniper-bot/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Scott
+  last_updated_on: 2022-03-29 19:50:32.000000000 Z
+- name: fs
+  description: This package name is not currently in use, but was formerly occupied
+    by another package
+  package_url: https://www.npmjs.com/fs
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/assistaplus/assp-coinmarketcap-sniper-bot/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Scott
+  last_updated_on: 2022-02-03 04:40:19.000000000 Z
+- name: open
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/open
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/assistaplus/assp-coinmarketcap-sniper-bot/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Scott
+  last_updated_on: 2022-02-10 00:10:38.000000000 Z
